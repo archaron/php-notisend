@@ -1,0 +1,46 @@
+{
+    "name": "archaron/yii2-notisend",
+    "description": "The NotiSend API client extension for the Yii framework",
+    "keywords": ["yii2", "notisend", "api", "client"],
+    "type": "yii2-extension",
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/archaron/yii2-notisend/issues",
+        "source": "https://github.com/archaron/yii2-notisend"
+    },
+    "authors": [
+        {
+            "name": "Alexander Tischenko",
+            "email": "tsm@archaron.ru",
+            "homepage": "https://archaron.ru/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "yiisoft/yii2-httpclient": "~2.0.13"
+    },
+    "require-dev": {
+        "yiisoft/yii2-coding-standards": "~2.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "archaron\\notisend\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "yiiunit\\extensions\\notisend\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
