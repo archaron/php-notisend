@@ -16,7 +16,7 @@ namespace archaron\notisend {
     {
 
         private ?yii\httpclient\Client $httpClient = null;
-        public bool $apiKey = false;
+        public ?string $apiKey = null;
         public string $baseUrl = "https://api.notisend.ru/v1";
 
         /**
